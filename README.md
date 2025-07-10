@@ -1,12 +1,30 @@
-# React + Vite
+📋 Employee Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple employee management website built using React, Tailwind CSS, and DaisyUI. It allows you to add, view, and delete employees. There is no update feature and no database or backend — all data is stored temporarily in an array.
 
-Currently, two official plugins are available:
+🌐 Live Website: [Employee Website](https://jpmartirez.github.io/employees/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Features:
+- ➕ Add employee (name, position, department)
+- 👀 View employees in a table
+- ❌ Delete employees from the table
+- 🎨 Switch between light and dark themes (using DaisyUI)
 
-## Expanding the ESLint configuration
+🛠️ Technologies Used:
+- React
+- Tailwind CSS
+- DaisyUI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 How to Run:
+1. Clone the repository
+2. Navigate to the project folder
+3. Run `npm install` to install dependencies
+4. Run `npm run dev` to start the development server
+5. Open your browser and go to the specified local
+
+📝 Notes:
+- ✏️ No update/edit functionality
+- 🗃️ No persistent storage or database
+- 🔄 Data resets on page refresh
+
+  
